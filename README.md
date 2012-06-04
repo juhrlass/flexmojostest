@@ -1,4 +1,4 @@
 flexmojostest
 =============
 
-a testcase for flex and maven with flex mojos
+a testcase or kickstart template for flex and maven with flex mojos

@@ -84,13 +84,13 @@
                     <storepass>false</storepass>
                     <targetPlayer>11.1.0</targetPlayer>
 
-                    <!--todo - gives error in intellij 11.1.2-->
+                    <!--todo - works in maven but gives error in intellij 11.1.2-->
                     <!--<themes>
                         <theme>
                             ${settings.localRepository}/com/adobe/flex/framework/framework/${flex.version}/configs_zip/themes/Spark/spark.css
                         </theme>
                     </themes>-->
-                    <!--todo - works but is not save in every maven configuration-->
+                    <!--todo - works in maven but is not save in every maven configuration (maybe someone changed his .m2 folder to another location)-->
                     <themes>
                         <theme>
                             ${user.home}/.m2/repository/com/adobe/flex/framework/framework/${flex.version}/configs_zip/themes/Spark/spark.css
